@@ -1,0 +1,6 @@
+{
+  "name": "UseMe",
+  "description": "A virtual sandbox Visa card generator and online checkout simulator for developers, testing, and training.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
