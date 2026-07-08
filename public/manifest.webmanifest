@@ -1,0 +1,24 @@
+{
+  "name": "UseMe - Virtual Visa Card Generator & Sandbox",
+  "short_name": "UseMe",
+  "description": "Generate free virtual Visa cards for safe online simulation and transaction testing.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080b11",
+  "theme_color": "#080b11",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "maskable"
+    }
+  ]
+}
