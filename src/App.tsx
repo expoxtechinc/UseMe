@@ -15,7 +15,7 @@ import { VirtualCardItem } from './components/VirtualCardItem';
 import { CheckoutSandbox } from './components/CheckoutSandbox';
 
 // Pre-fill name from metadata or defaults
-const DEFAULT_CARDHOLDER_NAME = 'AKI SOKPAH';
+const DEFAULT_CARDHOLDER_NAME = 'SANDBOX USER';
 
 export default function App() {
   // --- Persistent State ---
@@ -279,7 +279,7 @@ export default function App() {
                   type="text"
                   maxLength={22}
                   required
-                  placeholder="e.g. Aki Sokpah"
+                  placeholder="e.g. Jane Doe"
                   value={formName}
                   onChange={(e) => setFormName(e.target.value)}
                   className="bg-slate-950/80 border border-slate-800 focus:border-indigo-500 focus:outline-none rounded-xl px-3 py-2 text-sm text-white placeholder-gray-600 transition"
